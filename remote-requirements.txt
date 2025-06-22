@@ -1,0 +1,5 @@
+pandas
+numpy
+scikit-learn
+tensorflow
+rnapolis @ git+https://github.com/rnapolis/rnapolis.git
