@@ -1,0 +1,12 @@
+{
+  "name": "gnn-env",
+  "context": "..",
+  "dockerFile": "Dockerfile",
+  "mounts": ["source=${localWorkspaceFolder},target=/workspace,type=bind"],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "pip install -r remote-requirements.txt",
+  "workspaceFolder": "/workspace"
+}
