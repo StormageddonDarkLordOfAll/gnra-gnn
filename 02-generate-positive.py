@@ -278,7 +278,7 @@ def main():
     gnra_motifs = filtered_gnra_motifs
 
     print("\nParsing mmCIF files and processing motifs...")
-    process_all_pdb_files(gnra_motifs)
+    process_all_pdb_files(gnra_motifs, max_workers=2)
 
 
 if __name__ == "__main__":

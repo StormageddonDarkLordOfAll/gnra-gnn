@@ -2,4 +2,5 @@ pandas
 numpy
 scikit-learn
 tensorflow
-rnapolis @ git+https://github.com/rnapolis/rnapolis.git
+rnapolis 
+cli2rest-bio @ git+https://github.com/tzok/cli2rest-bio
